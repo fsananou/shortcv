@@ -1,0 +1,203 @@
+%!TEX program = lualatex
+
+\documentclass[9pt, oneside]{memoir}
+\setlrmarginsandblock{0.5in}{6in}{*}
+\setulmarginsandblock{0.5in}{0.5in}{*}
+
+
+\usepackage[colorlinks=true]{hyperref}
+
+\setlength{\sidebarhsep}{0.5in}
+\setlength{\sidebarwidth}{5in}
+\setsidebarheight{\textheight}
+
+\checkandfixthelayout
+\setlength{\parindent}{0pt}
+\nonzeroparskip
+
+\renewcommand{\sidebarfont}{
+    \scriptnotesize
+    \nonzeroparskip}
+    
+\setcounter{secnumdepth}{0}
+\setsubsubsecheadstyle{\normalsize\itshape}
+\setsubsecheadstyle{\normalsize\bfseries}
+
+\newcommand{\ruledsec}[1]{
+    \Large\bfseries #1 \par\vskip-2mm
+    \rule{1in}{0.1mm}
+    \par\vskip-2mm}
+\setsecheadstyle{\ruledsec}
+
+\newcommand{\position}[2]{\subsubsection{#1
+    \hfill
+    #2}}
+    
+\usepackage{fontspec}
+\setmainfont{carlito}
+%\usepackage[top=1cm,bottom=1cm,scale=0.5]{geometry}
+\usepackage[scaled=.5]{helvet}
+\usepackage{courier}
+\setSingleSpace{0.9}
+\SingleSpacing
+
+\pagestyle{empty}
+
+    \begin{document}
+
+\begin{minipage}[t][0in][b]{4in}
+    {\fontsize{12pt}{8pt}\selectfont
+        \rmfamily\textbf{Foly S. Ananou}}\\
+\\
+{\fontsize{8pt}{8pt}\selectfont
+        \rmfamily ananou.foly@icloud.com\\ Phone: +33 6 50 39 62 44}
+          \vfill
+\end{minipage}
+
+
+\sidebar{
+\section{Work experience}
+
+\subsection{Research and teaching fellow}
+\position{Laboratoire d'Analyse et de Prospective Economiques de l'Université de Limoges}{10/2017 -- Present}
+
+\begin{itemize}
+\item Drafted research projetcs, and identified testable hypothesis in the fields of macroeconomics, finance and banking
+\item Collected, managed and prepared financial and economic data for statistical analysis 
+\item Performed statistical and econometric analysis work with R, Stata,  Excel or Python, and write reports summarizing the results
+\item  Presented the results of my research at different conferences and workshops
+\item  Contributed to peer-reviewing of several economic research .
+\item  Participated in funded research projects by the French National Research Agency (ANR CaLiBank project)
+\item Elaborated and delivered tutorials in Statistics and Macroeconomics for undergraduate students 
+\item Mentored first year graduate level students for the preparation of research dissertations and economic analysis reports
+
+\end{itemize}
+
+
+
+\subsection{Economist, Consultant}
+\position{Groupe Orange}{01/2017 -- 06/2017}
+%\small{
+\begin{itemize}
+\item Developped, within a team of four members, a method to assess the economic impact of mobile-money in French-speaking West Africa and proposed strategies
+to optimize the performance of mobile-banking within that region
+\end{itemize}
+%}
+
+\subsection{Principal Economist}
+\position{French Embassy in Senegal}{07/2012 -- 08/2016}
+%\small{
+\begin{itemize}
+\item Conducted economic analysis and prepared reports on selected topics including developments in exchange rate, inflation and economic growth in Senegal, Cabo Verde, Gambia, and Guinea Bissau
+\item Prepared reports, studies and forecasts on major and significant utility issues using statistical and economic analysis techniques.
+\item Assessed the socio-economic impact of AFD projects in Senegal, Cabo Verde, Gambia, and Guinea Bissau
+\item Developped a country risk assessment methodology based on variables such as inflation, growth and debt levels as well as socio-
+economic indicators
+\item Carried out statistical and econometric analysis work with R, Stata or Excel and write reports summarizing results to help improve understanding of trade trends in West African countries
+\item Provided economic information to the Ambassador's office, other department of the Embassy, and corporations locally presented in West Africa or prospecting 
+\item Compiled key government sources of economic information and made them available to the Economic Department team.
+
+\item Others: Builded a database for economic and financial monitoring. Animated the French business community. Monitored trainees.
+\end{itemize}
+%}
+
+\subsection{Economist, Consultant}
+\position{Office of the Prime Minister of the Republic of Benin}{08/2015 -- 12/2015}
+%\small{
+\begin{itemize}
+\item Authored, within a team of five members, two policy notes on financial absorption and youth employment in Benin
+\end{itemize}
+%}
+
+\subsection{Visiting lecturer}
+\position{Ecole Nationale de Statistiques et d'Analyse Economique/Senegal}{09/2013 -- 06/2016}
+%\small{
+\begin{itemize}
+\item Lectured graduate level students (M.Sc. in Statistics and Ecomomic) on Panel data Econometrics
+\end{itemize}
+
+}
+\sidebar{
+
+\section{Additional activities}
+\subsection{Associate Director}
+
+\position{Think tank l'Afrique des Idées}{07/2013 -- Present}
+%\small{
+\begin{itemize}
+\item Directed the economic research program of the think tank L'Afrique des Idées
+\item Coordinated team activities and assigned duties for research projects.
+\item Gathered empirical data and conducted economic research on topic such as fiscality, monetary union, mobile-banking, and inequality
+\item Several media intervention to present and discuss research outcomes
+
+\end{itemize}
+}
+ 
+
+
+\sidebar{
+ 
+\section{Selected publications}
+%\small{
+\begin{itemize}
+\item \textit{Liquidity regulation and bank lending}, with D. Chronopoulos, A. Tarazi, and J. Wilson. Journal of Corporate Finance, 69(C), 2021.
+\item \textit{Liquidity regulation and bank risk.}, with D. Chronopoulos, A. Tarazi, and J. Wilson, 2021. 
+\item  \textit{Exploring the dynamic of the tax gap in Africa}, with G. V. Houngbonon, 2017. 
+    \item \textit{Agenda pour une réforme du Franc CFA}, with B. Houenou, G.V. Houngbonon, D. Ouedraogo, B. Sandwidi, and J.K. Tchangai. L'Afrique des Idées, January 2019. 
+    \item \textit{Mobilisation des recettes fiscales en Afrique: L'obstacle de l'informel, le levier du mobile-money}, with B. Houenou, G.V. Houngbonon, and O. Gandzion. L'Afrique des Idées, July 2017. 
+    \item \textbf{The Conversation France} -- \textit{Collecte-t-on trop ou trop peu d’impôts en Afrique ?}
+    \item \textbf{Jeune Afrique} -- \textit{Il est temps de penser à l’après-Franc CFA !}
+\item Authors of several notes and economic analysis report, available at \href{https://www.lafriquedesidees.org/?s=foly+ananou}{lafriquedesidees.org/?s=foly+ananou}
+\end{itemize}
+%}
+}
+
+\sidebar{
+ 
+%\end{describe}
+
+}
+
+\sidebar{
+ 
+}
+
+    \section{Education}
+    \position{PhD, Economics\\\emph{Univ. de Limoges}}{2021}
+    \position{M.Phil., Economics\\\emph{Univ. de Limoges}}{2017}
+    \position{M.Sc., Econ. and Statistics\\\emph{ENSAE-Senegal}}{2012}
+    \position{B.Sc., Statistics\\\emph{ENSAE-Senegal}}{2010}
+
+    \section{Languages}
+\position{French}{Native}
+\position{English}{Fluent}
+
+   \section{IT Skills}
+\position{\emph{Most recently used:}}{Stata, Ms Office, Latex}
+\position{Proficient:}{Stata, Eviews, Ms Office, LateX, Bloomberg}  
+ \position{Competent:}{CsPro, VBA, SQL, R, Python}
+    % \position{Familiar:}{    R, Python}
+%}
+
+%}
+
+
+%}
+
+
+   \section{Non-IT Skills}
+%\begin{describe}
+     Economic and econometric modeling $\bullet $  Data analysis $\bullet $ Banking and Finance $\bullet $ Economic and policy analysis $\bullet $  Critical thinking $\bullet $  Machine Learning  $\bullet $ Program management
+$\bullet $ Teamwork
+$\bullet $ Reliability $\bullet $ Organization
+$\bullet $ Public Speaking 
+
+   \section{Grants and Awards}
+%\begin{describe}
+ \emph{Bureau Van Dijk Prize for the best paper in Banking}, 34th AFBC Sydney, 14-17 December 2021 $\bullet $ \emph{French Doctoral Fellowship}, awarded in 2017 $\bullet $ \emph{Université de Limoges Excellence Scholarship for International Students}, awarded in 2016 $\bullet $ \emph{Odon Vallet Scholarship, Ensae-Senegal}, awarded 2006--2012. 
+
+%\end{describe}
+
+
+
+\end{document}
